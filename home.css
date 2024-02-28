@@ -1,0 +1,1627 @@
+body {
+    direction: rtl;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#home {
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 550px;
+    padding-top: 200px;
+    animation-name: change-background;
+    animation-duration: 21s;
+    animation-delay: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+
+}
+
+#neche {
+    box-shadow: 0px 0px 5px 0px black;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#neche-i {
+    text-align: center;
+    padding-top: 5px;
+}
+
+#kituv-1 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 200px;
+    animation-name: join-a-blue;
+    animation-direction: normal;
+    animation-duration: 21s;
+    animation-fill-mode: both;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+
+#kituv-2 {
+ 
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 2;
+    right: 200px;
+    top: 210px;
+    animation-name: join-a-orange;
+    animation-delay: 5s;
+    animation-direction: normal;
+    animation-duration: 21s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+#kituv-3 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 3;
+    right: 200px;
+    top: 210px;
+    animation-name: join-a-green;
+    animation-direction: normal;
+    animation-delay: 5s;
+    animation-duration: 21s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+#coteret {
+    background-color: white;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 6;
+    padding-right: 600px;
+}
+
+#logo {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    position: fixed;
+    z-index: 3;
+    right: 20%;
+
+
+}
+
+#nituv {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 50px;
+    padding-top: 17px;
+
+}
+
+#nituv-mobile {
+    background-color: black;
+    width: 230px;
+    height: 600px;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 5;
+    font-size: 20px;
+    opacity: 0.8;
+    visibility: hidden;
+
+}
+
+#j {
+    visibility: hidden;
+    color: rgb(214, 9, 9);
+    font-size: 50px;
+    position: fixed;
+    z-index: 7;
+    top: 20px;
+    right: 20px;
+
+}
+
+.k-1 {
+    padding-top: 40px;
+    color: white;
+    padding-right: 30px;
+}
+
+#nituv>.כותרת {
+
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(65, 64, 64);
+
+}
+
+#join2 {
+    text-align: center;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(228, 8, 8);
+    color: white;
+    padding-top: 5px;
+    font-size: 15px;
+
+}
+
+#option {
+    border-radius: 10px;
+    height: 45px;
+    width: 90px;
+    margin-top: 10px;
+    font-size: 20px;
+    position: fixed;
+    z-index: 3;
+    right: 50px;
+    text-align: center;
+
+}
+
+#op {
+    padding-top: 20px;
+}
+
+.h1 {
+
+    color: rgb(20, 85, 114);
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+.h2 {
+    color: white;
+    font-size: 50px;
+    padding-top: 0px;
+
+}
+
+.h3 {
+    color: white;
+    font-size: 30px;
+
+}
+
+#orange {
+    color: chocolate;
+}
+
+#green {
+    color: rgb(64, 112, 15);
+}
+
+#flex {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.join {
+    background-color: rgb(15, 107, 150);
+    color: white;
+    width: 260px;
+    height: 45px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    border-radius: 30px;
+    text-align: center;
+    animation-name: change-join;
+    animation-duration: 1s;
+    animation-delay: 300ms;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+#join-orange {
+    background-color: chocolate;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: 223px;
+    animation-name: change-join-orange;
+    animation-duration: 1s;
+    animation-delay: 300ms;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+#join-green {
+    background-color: rgb(49, 89, 8);
+    color: white;
+    position: absolute;
+    z-index: 3;
+    top: 223px;
+    animation-name: change-join-green;
+    animation-duration: 1s;
+    animation-delay: 300ms;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+#join-nativ {
+    display: flex;
+    flex-direction: column;
+    top: 100px;
+    left: 50px;
+}
+
+.join-1 {
+    width: 250px;
+    background-color: rgb(105, 103, 103);
+    height: 35px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 3px;
+    margin-bottom: 10px;
+
+}
+
+.join-2 {
+    width: 250px;
+    background-color: rgb(222, 18, 18);
+    height: 35px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 3px;
+    margin-bottom: 10px;
+
+
+
+}
+
+.join-3 {
+    width: 250px;
+    background-color: rgb(105, 103, 103);
+    height: 35px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+
+}
+
+#chetz {
+    padding-top: 5px;
+    font-size: 25px;
+
+}
+
+#join-3-k {
+    padding-right: 50px;
+}
+
+h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+#me>p {
+    color: white;
+    font-size: 20px;
+
+
+}
+
+#me {
+    width: 38%;
+    display: flex;
+    margin-top: 100px;
+    margin-right: 400px;
+    justify-content: space-between;
+}
+
+.m {
+    width: 120px;
+    height: 105px;
+    padding-right: 80px;
+
+
+}
+
+#t {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    padding-right: 200px;
+    flex-wrap: wrap;
+}
+
+.t {
+    width: 170px;
+}
+
+#tr {
+    display: flex;
+    margin-right: 170px;
+
+}
+
+#t1 {
+    font-size: 27px;
+    margin-right: -40px;
+    text-align: center;
+}
+
+#t-1 {
+    animation-name: float-up-animation1;
+    animation-duration: 2s;
+    position: absolute;
+    z-index: 2;
+    right: 200px;
+}
+
+#t-2 {
+    animation-name: float-up-animation2;
+    animation-duration: 2s;
+    position: absolute;
+    z-index: 2;
+    right: 650px;
+
+}
+
+#t-3 {
+    animation-name: float-up-animation3;
+    animation-duration: 2s;
+    position: absolute;
+    z-index: 2;
+    right: 1100px;
+
+
+}
+
+#t2 {
+    font-size: 27px;
+    margin-right: -40px;
+    text-align: center;
+}
+
+#t3 {
+    font-size: 27px;
+    margin-right: -60px;
+    text-align: center;
+
+}
+
+.b1 {
+    width: 500px;
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 0%;
+}
+
+#b {
+    display: flex;
+    flex-direction: column;
+    animation-name: float-up-animation4;
+    animation-duration: 2s;
+    position: absolute;
+    z-index: 2;
+    top: 1200px;
+
+}
+
+#b2 {
+    font-size: 20px;
+    margin-right: 220px;
+    text-align: center;
+    padding-bottom: 80px;
+
+}
+
+#native {
+    margin-top: 600px;
+
+}
+
+#ratzui {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+#ratzui1 {
+    background-image: url(./תמונות/הורדה\ \(15\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    animation-name: float-up-animation-1;
+    animation-duration: 2s;
+    animation-delay: 200ms;
+    position: absolute;
+    z-index: 2;
+    right: 300px;
+
+}
+
+#ratzui2 {
+    background-image: url(./תמונות/הורדה\ \(16\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 310px;
+    height: 330px;
+    animation-name: float-up-animation-2;
+    animation-duration: 2s;
+    animation-delay: 200ms;
+    position: absolute;
+    z-index: 2;
+    right: 600px;
+
+}
+
+#ratzui3 {
+    background-image: url(./תמונות/הורדה\ \(17\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 310px;
+    height: 300px;
+    animation-name: float-up-animation-3;
+    animation-duration: 2s;
+    animation-delay: 200ms;
+    position: absolute;
+    z-index: 2;
+    right: 900px;
+
+}
+
+#ratzui4 {
+    background-image: url(./תמונות/הורדה\ \(18\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 520px;
+    margin-top: 100px;
+    width: 450px;
+    height: 300px;
+    animation-name: float-up-animation-4;
+    animation-duration: 2s;
+
+    position: absolute;
+    z-index: 2;
+    top: 2000px;
+
+}
+
+.stick {
+    padding-top: 50px;
+    padding-right: 530px;
+    width: 430px;
+    height: 250px;
+}
+
+#a1 {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+
+
+}
+
+#a2 {
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 30px;
+
+
+}
+
+#a3 {
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-right: 20px;
+
+}
+
+#a4 {
+    padding-top: 40px;
+    font-size: 23px;
+    text-align: center;
+
+
+}
+
+#a5 {
+    padding-top: 5px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.a1 {
+    padding-top: 30px;
+    padding-right: 60px;
+    width: 150px;
+    height: 90px;
+}
+
+.a2 {
+    padding-top: 30px;
+    padding-right: 70px;
+    width: 150px;
+    height: 90px;
+}
+
+.a3 {
+    padding-top: 30px;
+    padding-right: 90px;
+
+    width: 150px;
+    height: 90px;
+}
+
+#native {
+    font-size: 40px;
+    text-align: center;
+}
+
+#native1 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#name {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    color: white;
+
+}
+
+#phone {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    color: white;
+
+}
+
+#email {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    color: white;
+
+}
+
+#page-pratim {
+    background-image: url(./תמונות/בית.png);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    padding-top: 50px;
+    margin-top: 700px;
+}
+
+#icon {
+    display: flex;
+    flex-direction: column;
+    padding-right: 730px;
+    margin-top: 20px;
+}
+
+#nisui {
+    display: flex;
+    flex-direction: row;
+}
+
+#fon {
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    padding: 6px;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+#user {
+    background-color: white;
+    padding: 6px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+#maile {
+    background-color: white;
+    padding: 6px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+#pratim2 {
+    padding-right: 700px;
+    padding-bottom: 0%;
+    margin-top: -30px;
+    color: white;
+    font-size: 20px;
+}
+
+#pratim {
+    padding-right: 670px;
+    margin-top: 10px;
+    color: white;
+    font-size: 35px;
+}
+
+#forme {
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+#delive {
+    background-color: rgb(223, 19, 19);
+    font-size: 20px;
+    width: 230px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    margin-right: 900px;
+
+}
+
+#free {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    margin-top: 120px;
+}
+
+#malben {
+    background-color: rgb(235, 241, 241);
+    width: 100%;
+    height: 420px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+
+}
+
+#pictchers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 85%;
+    margin-right: 110px;
+}
+
+.shar {
+    width: 320px;
+    height: 350px;
+}
+
+.mezeg {
+    width: 320px;
+    height: 190px;
+}
+
+.zmanei {
+    width: 320px;
+    height: 350px;
+}
+
+#gate {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    padding-right: 110px;
+}
+
+.gate {
+    margin-top: -15px;
+    background-color: rgb(12, 9, 9);
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+#hour {
+
+    font-size: 30px;
+    color: rgb(12, 12, 101);
+    margin-top: 40px;
+    margin-right: 35%;
+}
+
+#hour2 {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(17, 17, 128);
+    margin-top: 30px;
+    margin-right: 40%;
+
+}
+
+#tl {
+    background-color: rgb(85, 82, 82);
+    width: 100%;
+    height: 250px;
+    margin-top: 30px;
+
+
+}
+
+#tl1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+#tl2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#tl3 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+#nituv2 {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    height: 50px;
+    padding-top: 25px;
+    padding-right: 400px;
+}
+
+#nituv2>.כ {
+
+    font-size: 22px;
+    text-decoration: none;
+    text-decoration: white;
+    color: white;
+}
+
+#tmicha-t {
+    margin-top: 100px;
+    background-image: url(./תמונות/הורדה\ \(17\).jpg);
+    color: white;
+    height: 150px;
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#n {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#flex-log {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.t-t {
+    width: 80px;
+    height: 80px;
+}
+
+.flex-log1 {
+    margin-right: 300px;
+}
+
+.flex-log2 {
+    margin-left: 100px;
+}
+
+.flex-log3 {
+    margin-right: 335px;
+}
+
+.flex-log4 {
+    margin-left: 125px;
+}
+
+.t-t1 {
+    color: red;
+    font-size: 25px;
+}
+
+.t-t2 {
+    color: rgb(10, 1, 1);
+    font-size: 20px;
+}
+
+#far {
+    padding-top: 20px;
+}
+
+#far-2 {
+    padding-top: 30px;
+}
+
+#far-3 {
+    margin-top: -20px;
+}
+
+#far-4 {
+    margin-top: -10px;
+}
+
+#ul2 {
+    list-style: none;
+    padding-top: 10px;
+    background-color: rgb(244, 245, 247);
+}
+
+#ul {
+    list-style: none;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+#ul1 {
+    list-style: none;
+    font-size: 20px;
+    margin-left: 195px;
+}
+
+#ul3 {
+    list-style: none;
+    font-size: 20px;
+    margin-left: 600px;
+}
+
+#ul4 {
+    list-style: none;
+    font-size: 20px;
+    margin-left: 750px;
+}
+
+#ul5 {
+    list-style: none;
+    font-size: 20px;
+    margin-left: 800px;
+}
+
+#ul6 {
+    list-style: none;
+    font-size: 20px;
+    margin-left: 300px;
+}
+
+#ul7 {
+    list-style: none;
+    font-size: 20px;
+    margin-left: 220px;
+}
+
+#i {
+    font-size: 30px;
+    color: rgb(16, 141, 199);
+    padding-top: 2px;
+    padding-left: 10px;
+}
+
+#flex-i {
+    display: flex;
+    flex-direction: row;
+}
+
+#title-c {
+    margin-top: 100px;
+    background-image: url(./תמונות/עכבר3.png);
+    color: white;
+    height: 150px;
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.title-c1 {
+    font-size: 40px;
+}
+
+.title-c2 {
+    font-size: 25px;
+}
+
+#department {
+    margin-top: 30px;
+    margin-right: 530px;
+    font-size: 25px;
+}
+
+#department-img {
+    margin-top: 30px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+#img1 {
+    background-image: url(./תמונות/הורדה\ \(28\).png);
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+#img2 {
+    background-image: url(./תמונות/הורדה\ \(29\).png);
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+#img3 {
+    background-image: url(./תמונות/הורדה\ \(30\).png);
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+#img4 {
+    background-image: url(./תמונות/הורדה\ \(31\).png);
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+#img5 {
+    background-image: url(./תמונות/הורדה\ \(32\).png);
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+#img6 {
+    background-image: url(./תמונות/הורדה\ \(33\).png);
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+.red {
+    width: 200px;
+    height: 30px;
+    margin-top: 150px;
+    margin-right: 50px;
+    background-color: rgb(206, 11, 11);
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#img1:hover {
+    background-image: url(./תמונות/הורדה\ \(34\).png);
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+#img2:hover {
+    background-image: url(./תמונות/הורדה\ \(35\).png);
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+#img3:hover {
+    background-image: url(./תמונות/הורדה\ \(36\).png);
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+#img4:hover {
+    background-image: url(./תמונות/הורדה\ \(37\).png);
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+#img5:hover {
+    background-image: url(./תמונות/הורדה\ \(38\).png);
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+#img6:hover {
+    background-image: url(./תמונות/הורדה\ \(39\).png);
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+#about-t {
+    margin-top: 100px;
+    background-image: url(./תמונות/הורדה\ \(18\).jpg);
+    color: white;
+    height: 180px;
+    width: 100%;
+    font-size: 70px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#solelim {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.border-red {
+    margin-right: 400px;
+    width: 750px;
+    height: 400px;
+}
+
+#make {
+    color: white;
+    padding-right: 700px;
+    font-size: 30px;
+    padding-top: 35px;
+    margin-bottom: 5px;
+}
+
+#wright-blou {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    background-color: rgb(71, 96, 150);
+
+}
+
+#y {
+    width: 40%;
+    font-size: 25px;
+    padding-right: 700px;
+    color: white;
+    text-align: justify;
+}
+
+#conect-y {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.computer {
+    top: 900px;
+    right: 250px;
+    position: absolute;
+    z-index: 2;
+    width: 400px;
+    height: 500px;
+    animation-name: float-up-animation-computer;
+    animation-duration: 2s;
+
+}
+
+#read {
+    padding-right: -100px;
+}
+
+#special {
+    margin-right: 350px;
+    font-size: 32px;
+    margin-bottom: -17px;
+}
+
+#y2 {
+    width: 55%;
+    font-size: 25px;
+    padding-right: 350px;
+    text-align: justify;
+
+
+}
+
+#read2 {
+    color: rgb(71, 96, 150);
+}
+
+#gray {
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.key {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    z-index: 2;
+    right: 200px;
+    top: 2000px;
+    animation-name: float-up-animation-key;
+    animation-duration: 2s;
+
+}
+
+#personal-y {
+    padding-top: 55px;
+    padding-right: 40px;
+}
+
+#y3 {
+    width: 55%;
+    font-size: 25px;
+    text-align: justify;
+    padding-right: 570px;
+
+}
+
+#personal {
+    font-size: 32px;
+    padding-bottom: 20px;
+    padding-right: 570px;
+}
+
+#white-red {
+    margin-top: 60px;
+    margin-right: 300px;
+    background-color: white;
+    width: 1210px;
+    height: 400px;
+    border: rgb(206, 11, 11) 4px solid;
+    border-bottom-right-radius: 30px;
+    border-left: none;
+    border-top-right-radius: 30px;
+    margin-bottom: 300px;
+}
+
+#y4 {
+
+    font-size: 25px;
+    padding-right: 80px;
+}
+
+.hand {
+    position: absolute;
+    z-index: 3;
+    top: 2700px;
+    width: 350px;
+    height: 250px;
+    right: 1000px;
+    animation-name: float-up-animation-hand;
+    animation-duration: 2s;
+
+}
+
+#for-you {
+    margin-bottom: 10px;
+    font-size: 32px;
+    padding-right: 80px;
+}
+
+.line {
+    margin-bottom: 20px;
+}
+
+#hour1 {
+    margin-top: 200px;
+    font-size: 30px;
+    color: rgb(12, 12, 101);
+
+    margin-right: 35%;
+}
+
+#personal-chose {
+    background-color: rgb(222, 18, 18);
+    border-radius: 50px;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    width: 550px;
+    height: 42px;
+    margin-right: 450px;
+}
+
+#o {
+    font-size: 10px;
+    padding-right: 500px;
+    background-image: url(./תמונות/בית-2.png);
+    background-size: cover;
+    height: 735px;
+}
+
+.iputim {
+    background: none;
+    color: rgb(201, 124, 65);
+    font-size: 25px;
+    border-color: gray;
+    margin-right: 120px;
+}
+
+.iputim-3 {
+    background: none;
+    color: rgb(201, 124, 65);
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+#pniah-1 {
+    background-image: url(./תמונות/גל-2.png);
+    background-size: cover;
+    height: 735px;
+}
+
+#milui {
+    font-size: 70px;
+    color: rgb(201, 124, 65);
+    margin-bottom: 30px;
+
+}
+
+#pniah {
+    text-align: center;
+    font-size: 50px;
+    width: 30%;
+    margin-right: 500px;
+    margin-top: 200px;
+    animation-name: change-pniah;
+    animation-duration: 1s;
+    animation-delay: 300ms;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+#pniah-img {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+
+}
+
+.pniah-img {
+    width: 100px;
+    height: 100px;
+}
+
+#bulk {
+    font-size: 100px;
+    margin-right: 1000px;
+
+}
+
+@keyframes change-join {
+    0% {
+        background-color: white;
+        color: rgb(15, 107, 150);
+    }
+
+    50% {
+        background-color: rgb(15, 107, 150);
+        color: white;
+    }
+}
+
+@keyframes change-join-orange {
+    0% {
+        background-color: white;
+        color: chocolate;
+    }
+
+    50% {
+        background-color: chocolate;
+        color: white;
+    }
+}
+
+@keyframes change-join-green {
+    0% {
+        background-color: white;
+        color: rgb(49, 89, 8);
+    }
+
+    50% {
+        background-color: rgb(49, 89, 8);
+        color: white;
+    }
+}
+
+@keyframes change-background {
+    0% {
+        background-image: url('./תמונות/1דף\ הבית.jpg');
+    }
+
+    33% {
+        background-image: url(./תמונות/הורדה\ \(8\).jpg);
+    }
+
+    66% {
+        background-image: url(./תמונות/הורדה\ \(9\).jpg);
+    }
+
+    100% {
+        background-image: url('./תמונות/1דף\ הבית.jpg');
+    }
+}
+
+@keyframes float-up-animation1 {
+    0% {
+        margin-top: 200px;
+        opacity: 0;
+    }
+
+    100% {
+        margin-top: 0px;
+        opacity: 1;
+    }
+
+}
+
+@keyframes float-up-animation2 {
+    20% {
+        margin-top: 200px;
+        opacity: 0;
+    }
+
+    100% {
+        margin-top: 0px;
+        opacity: 1;
+    }
+
+}
+
+@keyframes float-up-animation3 {
+    40% {
+        margin-top: 200px;
+        opacity: 0;
+    }
+
+    100% {
+        margin-top: 0px;
+        opacity: 1;
+    }
+
+}
+
+@keyframes float-up-animation4 {
+    80% {
+        margin-top: 100px;
+        opacity: 0;
+    }
+
+    100% {
+        margin-top: 0px;
+        opacity: 1;
+    }
+
+}
+
+@keyframes float-up-animation-1 {
+    0% {
+        margin-top: 200px;
+        opacity: 0;
+    }
+
+    100% {
+        margin-top: 0px;
+        opacity: 1;
+    }
+
+}
+
+@keyframes float-up-animation-2 {
+    20% {
+        margin-top: 200px;
+        opacity: 0;
+    }
+
+    100% {
+        margin-top: 0px;
+        opacity: 1;
+    }
+
+}
+
+@keyframes float-up-animation-3 {
+    40% {
+        margin-top: 200px;
+        opacity: 0;
+    }
+
+    100% {
+        margin-top: 0px;
+        opacity: 1;
+    }
+
+}
+
+@keyframes float-up-animation-4 {
+    60% {
+        top: 2100px;
+        opacity: 0;
+    }
+
+    100% {
+        margin-top: 100px;
+        opacity: 1;
+    }
+
+}
+
+@keyframes join-a-blue {
+    0% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: 0;
+    }
+
+    66% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes join-a-orange {
+    0% {
+        opacity: 0;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    66% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes join-a-green {
+    0% {
+        opacity: 0;
+    }
+
+    33% {
+        opacity: 0;
+    }
+
+    66% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes float-up-animation-key {
+    0% {
+        width: 150px;
+        height: 150px;
+        padding-right: 100px;
+        padding-top: 100px;
+    }
+
+}
+
+@keyframes float-up-animation-hand {
+    0% {
+        width: 100px;
+        height: 100px;
+        padding-right: 100px;
+        padding-top: 100px;
+        opacity: 1;
+    }
+
+}
+
+@keyframes float-up-animation-computer {
+    0% {
+        width: 150px;
+        height: 150px;
+        padding-top: 200px;
+        padding-right: 100px;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:900px) {
+    #logo {
+        padding-right: 200px;
+    }
+
+    #option {
+        visibility: hidden;
+    }
+
+    #nituv-mobile {
+        visibility: visible;
+    }
+
+    #nituv {
+        visibility: hidden;
+    }
+
+    #j {
+        visibility: visible;
+    }
+}
+
+@keyframes change-pniah {
+    50% {
+        color: red;
+
+    }
+
+    100% {
+        color: rgb(88, 85, 85);
+
+    }
+
+}
